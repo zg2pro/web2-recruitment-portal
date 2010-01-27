@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Entreprise>
+  <lastIP>0.0.0.0</lastIP>
+  <Login>sopra</Login>
+  <Mot_de_passe>sopra</Mot_de_passe>
+  <Nom>Sopra</Nom>
+  <Code_postal>12120</Code_postal>
+  <Ville>Tombouctou</Ville>
+  <Pays>Mali</Pays>
+  <Contact>
+    <Nom/>
+    <Téléphone/>
+    <E-Mail/>
+  </Contact>
+  <Description>
+    <Catégorie/>
+    <Activités>porno</Activités>
+  </Description>
+  <Logo_URL/>
+  <Entreprise_URL/>
+  <Autorisation>1</Autorisation>
+  <Adresse>dtc</Adresse>
+</Entreprise>

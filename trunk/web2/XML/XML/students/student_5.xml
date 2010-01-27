@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Etudiant>
+  <lastIP>0.0.0.0</lastIP>
+  <Login>eee</Login>
+  <Mot_de_passe>eee</Mot_de_passe>
+  <Nom>EEE</Nom>
+  <Prenom>eee</Prenom>
+  <Date_de_naissance>12-12-1984</Date_de_naissance>
+  <Code_postal>13012</Code_postal>
+  <Ville>Marseille</Ville>
+  <Pays>France</Pays>
+  <Nationalité>Fran&#xE7;aise</Nationalité>
+  <E-Mail>eee@eee.fr</E-Mail>
+  <Téléphone>04.91.06.05.54.</Téléphone>
+  <Formation>
+    <Diplome/>
+    <Etablissement/>
+    <Promotion/>
+  </Formation>
+  <Langues>
+    <Langue/>
+    <Niveau/>
+  </Langues>
+  <CV_URL/>
+  <Photo_URL/>
+  <Disponibilité>1</Disponibilité>
+  <Sexe>M</Sexe>
+  <Adresse>chez moi</Adresse>
+  <Competences/>
+</Etudiant>
