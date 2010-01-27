@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/adaptXML.xsl"?>
+<Etudiant>
+	<Disponibilité>Autoriser les entreprises à consulter mon profil</Disponibilité>
+<Login>aaa</Login>
+<Mot_de_passe>aaa</Mot_de_passe>
+<lastIP>0.0.0.0</lastIP>
+<Nom>aaa</Nom>
+<Prenom>a</Prenom>
+<Sexe>M</Sexe>
+<Date_de_naissance/>
+<Code_postal/>
+<Ville>Marseille</Ville>
+<Pays>France</Pays>
+  <Nationalité>Algérienne</Nationalité>
+<E-mail>aaa@aaa.com</E-mail>
+  <Téléphone/>
+<Formation>
+	<Diplome>Master 1 BBB</Diplome>
+	<Etablissement>USTB</Etablissement>
+	<Promotion>2007</Promotion>
+</Formation>
+<Langues>
+	<Langue>anglais</Langue>
+	<Niveau>bon</Niveau>
+</Langues>
+<Competences>Java/J2EE, JSP</Competences>
+<CV_URL/>
+  <Photo_URL/>
+</Etudiant>

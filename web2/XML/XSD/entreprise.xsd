@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../XSL/adaptXSD.xsl"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Entreprise">
+    <xs:complexType>   
+	    <xs:sequence>   
+		    <xs:element name="Autorisation"  minOccurs="1" maxOccurs="1">
+			    <xs:simpleType>
+				    <xs:restriction base="xs:string">
+					    <xs:pattern value="[0-1]"/>
+				    </xs:restriction>
+			    </xs:simpleType>
+		    </xs:element>
+		    <xs:element name="Login" minOccurs="1" maxOccurs="1"/>
+		    <xs:element name="Mot_de_passe" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="lastIP" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="Nom" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="Adresse"/> 
+            <xs:element name="Code_postal"/> 
+            <xs:element name="Ville"/> 
+            <xs:element name="Pays"/> 
+            <xs:element name="Contact" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Nom"/>
+                        <xs:element name="Téléphone"/>
+                        <xs:element name="E-Mail">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="[a-zA-Z0-9._\-]+@[a-zA-Z0-9._\-]+\.[a-zA-Z0-9._\-]+"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Description">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Catégorie"/>
+                        <xs:element name="Activités"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Logo_URL" type="xs:anyURI" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="Entreprise_URL" type="xs:anyURI" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+        </xs:complexType>
+</xs:element>
+</xs:schema>

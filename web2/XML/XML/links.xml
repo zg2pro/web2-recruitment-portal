@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../XSL/links.xsl"?>
+
+<links>
+	<link><img>banner_1.jpg</img>
+		<url>http://www.chezmoicamarche.org</url>
+	</link>
+	<link><img>banner_2.gif</img>
+		<url>http://www.chezmoicamarche.org</url>
+	</link>
+	<link><img>banner_3.jpg</img>
+		<url>http://www.chezmoicamarche.org</url>
+	</link>
+	<link><img>banner_4.gif</img>
+		<url>http://www.chezmoicamarche.org</url>
+	</link>
+	<link><img>banner_5.png</img>
+		<url>http://www.chezmoicamarche.org</url>
+	</link>
+</links> 

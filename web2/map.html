@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-fr" lang="fr-fr" >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>2ième Forum du Recrutement Informatique</title>
+	<script type="text/javascript" src="JavaScript/switchCSS.js"></script>
+	<script type="text/javascript" src="JavaScript/CommonFrames.js"></script>
+	<script type="text/javascript" src="JavaScript/parseXML.js"></script>
+	<script type="text/javascript" src="JavaScript/insertPHP.js"></script>
+	<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAABjjGByyyXfo38_1VDCLDgRTbfOvdwtuUM60UOKKOGtbKm5LjdxT5x0gpOx_NN6fnD9Gdqc1GTAX6IA"
+type="text/javascript"></script>
+	<script type="text/javascript">
+		//<![CDATA[
+		//ce script est fourni par l'API de google et permet de charger le script de maps.google
+		function load() {
+			if (GBrowserIsCompatible()) {
+				var map = new GMap2(document.getElementById("map"));
+				map.setCenter(new GLatLng(43.336556, 5.410531), 17);
+			}//if
+		}//load
+		//]]>
+	</script>
+	<link title="css1" rel="stylesheet" href="CSS/css1.css" type="text/css" />
+	<link title="css2" rel="stylesheet" href="CSS/main.css" type="text/css" />
+	<link title="css3" rel="stylesheet" href="CSS/css3.css" type="text/css" />
+</head>
+
+<body id="page_bg" onload="load()" onunload="GUnload()">
+
+
+<!-- ceci est utile à la recupération d'une valeur en javascript mais est invisible -->
+<div id="page">map</div>
+<!-- en tête de page contenu dans ce div -->
+<div id='H_map'>Chargement...</div>
+<!-- on remplit le haut de page et on crée le menu de gauche -->
+<script type="text/javascript"> header(); </script>
+<div class='clr'></div>
+<div class='center'>																			<div id='wrapper'>																			<div id='content'><br /><br />																		<div id='leftcolumn'>
+<script type="text/javascript">leftmenu();</script> 
+
+<!-- Ceci permet de créer un joli arondi autour de notre contenu -->
+<div id="theOne">
+<br />
+</div>
+</div>
+
+<!-- maincolumn décrit le véritable contenu de la page -->
+<div id="maincolumn">	
+<div class="nopad">
+<div class="componentheading">
+<span class="article_separator">&nbsp;</span>
+</div>
+
+<!-- la carte fournie par l'API google sera insérée ici -->
+<div id="map">Chargement...</div>
+Legende : double cliquez du bouton gauche pour zoomer, du bouton droit pour d&eacute;zoomer.
+<br /><br /><br />
+
+<!-- il ne reste plus que le bas de page : sous menu -->
+<div id='F_map'>Chargement...</div>
+<script type="text/javascript"> footer(); </script> 
+
+<!-- Ceci permet de créer un joli arondi autour de notre contenu -->
+<span class="article_separator">&nbsp;</span>
+</div>
+<div class="clr"></div>
+</div>	
+</div>
+<div id="content_bottom"></div>			
+</div>	
+</div>
+<div id='footer'></div>
+</body>
+</html>

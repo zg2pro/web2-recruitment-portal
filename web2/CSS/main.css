@@ -1,0 +1,131 @@
+body {
+	width: 100%;
+	margin: auto;
+	background-color: yellow;
+	font-size:larger;
+}
+
+.pillmenu ul {
+padding:0;
+margin:0;
+list-style-type:none;
+}
+.pillmenu li
+{
+margin-left:2px;
+float:left; /*pour IE*/
+}
+.pillmenu ul li a
+{
+display:block;
+float:left;
+width:100%;
+background-color:#6495ED;
+color:black;
+text-decoration:none;
+text-align:center;
+padding:5px;
+border-width:2px;
+border-style:solid;
+/*pour avoir un effet "outset" avec IE :*/
+border-color:#DCDCDC #696969 #696969 #DCDCDC;
+}
+.pillmenu ul li a:hover
+{
+background-color:#D3D3D3;
+border-color: #696969 #DCDCDC #DCDCDC #696969;
+} 
+
+
+a:hover{
+    	background-color: #6AFFE9;
+	color: black;
+}
+
+input:focus{
+	background-color:grey;
+}
+
+input{
+	margin:auto;
+}
+
+select {
+	margin:auto;
+}
+
+#title {
+	text-align:center;
+	font-size:xx-large;
+}
+
+#ip {
+/* 	display: none;*/
+}
+
+table {
+	text-align:center;
+border: medium solid #000000;
+width: 90%;
+}
+td, th {
+border: thin solid #6495ed;
+width: 100%;
+}
+
+#leftcolumn{
+	float:left;
+}
+
+
+div#maincolumn {
+	float: left;
+	width: 666px;
+	margin: 0 0 6px 0;
+}
+
+
+#connected {
+	text-align: center;
+}
+
+#transform img {
+	width:90%;
+}
+
+ol {
+	list-style-type:none;
+}
+
+#Validator {
+	border:0;
+	width:88px;
+	height:31px;
+}
+
+input {
+	width: 150px;
+}
+
+#page {
+	visibility:hidden;
+}
+
+#studentsTab, #companiesTab {
+	width:90%;
+}
+#studentsTab td, #companiesTab td {
+	border-style:inset;
+	font-size:large;
+}
+
+#theOne {
+	width:137px;
+	text-align:center;
+	margin:0 auto;
+}
+
+#map {
+	width: 90%; 
+	height: 400px;
+}

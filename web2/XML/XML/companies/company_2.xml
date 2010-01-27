@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Entreprise>
+	<lastIP>0.0.0.0</lastIP>
+	<Login>ibm</Login>
+	<Mot_de_passe>ibm</Mot_de_passe>
+	<Nom>IBM</Nom>
+	<Code_postal/>
+	<Ville/>
+	<Pays>Vietnam</Pays>
+	<Contact>
+		<Nom/>
+		<Téléphone/>
+		<E-Mail/>
+	</Contact>
+	<Description>
+		<Catégorie/>
+		<Activités>exploiter des viets</Activités>
+	</Description>
+	<Logo_URL/>
+	<Entreprise_URL/>
+	<Autorisation>1</Autorisation>
+	<Adresse/>
+</Entreprise>

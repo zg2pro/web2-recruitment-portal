@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//Dtd XHTML 1.0 Strict//EN" "http://www.w3.org/tr/xhtml1/Dtd/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Liste des Etudiants</title>
+	<script type="text/javascript" src="JavaScript/CommonFrames.js"></script>
+	<script type="text/javascript" src="JavaScript/parseXML.js"></script>
+	<script type="text/javascript" src="JavaScript/Tables.js"></script>
+	<script type="text/javascript" src="JavaScript/insertPHP.js"></script>
+	<script type="text/javascript" src="JavaScript/switchCSS.js"></script>
+	<link title="css1" rel="stylesheet" href="CSS/css1.css" type="text/css" />
+	<link title="css2" rel="stylesheet" href="CSS/main.css" type="text/css" />
+	<link title="css3" rel="stylesheet" href="CSS/css3.css" type="text/css" />
+</head>
+
+<body id="page_bg">
+
+<!-- ceci est utile à la recupération d'une valeur en javascript mais est invisible -->
+<div id="page">studentsList</div>
+
+<!-- en tête de page contenu dans ce div -->
+<div id='H_studentsList'>Chargement...</div>
+
+<!-- on remplit le haut de page et on crée le menu de gauche -->
+<script type="text/javascript"> header(); </script>
+<div class='clr'></div>
+<div class='center'>																			<div id='wrapper'>																			<div id='content'><br /><br />																		<div id='leftcolumn'>
+<script type="text/javascript">leftmenu();</script> 
+
+<!-- Ceci permet de créer un joli arondi autour de notre contenu -->
+<div id="theOne">
+<br />
+</div>  
+</div>
+
+<!-- maincolumn décrit le véritable contenu de la page -->
+<div id="maincolumn">	
+<div class="nopad">
+<div class="componentheading">	
+<span class="article_separator">&nbsp;</span>
+</div>
+
+<!-- ceci est la zone dans laquelle seront intégrées les données parsées depuis les documents XML -->
+<div id="zoneS">Chargement...</div> 
+
+<!-- Le div est ensuite rempli puis puisqu'il s'agit d'un tableau, 
+on ajoute nos modules de filtre et de tri par colonnes -->
+<script type="text/javascript"> listStudents("zoneS"); addFilterToTheTable(); </script>
+
+<!-- il ne reste plus que le bas de page : sous menu -->
+<div id='F_studentsList'>Chargement...</div>
+<script type="text/javascript"> footer(); </script> 
+
+<!-- Ceci permet de créer un joli arondi autour de notre contenu -->
+<span class="article_separator">&nbsp;</span>
+</div>
+<div class="clr"></div>
+</div>		
+</div>
+<div id="content_bottom"></div>			
+</div>	
+</div>
+	
+<div id='footer'></div>
+</body>
+</html>

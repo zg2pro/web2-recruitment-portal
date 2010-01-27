@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Etudiant>
+<Disponibilité>1</Disponibilité>
+<Login>bbb</Login>
+<Mot_de_passe>bbb</Mot_de_passe>
+<lastIP>90.29.218.14</lastIP>
+<Nom>bbb</Nom>
+<Prenom>b</Prenom>
+<Sexe>M</Sexe>
+<Date_de_naissance/>
+<Code_postal/>
+<Ville>Toulon</Ville>
+<Pays>France</Pays>
+  <Nationalité>Fran&#xE7;aise</Nationalité>
+<E-mail>bbb@bbb.com</E-mail>
+  <Téléphone/>
+<Formation>
+<Diplome>Master 2 AAA</Diplome>
+<Etablissement>DTC</Etablissement>
+<Promotion>2009</Promotion>
+</Formation>
+<Langues>
+	<Langue>anglais</Langue>
+	<Niveau>mauvais</Niveau>
+</Langues>
+<Competences>C / C++ / C#</Competences>
+<CV_URL/>
+  <Photo_URL/>
+</Etudiant>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Etudiant>
+<Disponibilité>0</Disponibilité>
+<Login>ccc</Login>
+<Mot_de_passe>ccc</Mot_de_passe>
+<lastIP>0.0.0.0</lastIP>
+<Nom>ccc</Nom>
+<Prenom>c</Prenom>
+<Date_de_naissance/>
+<Code_postal>69005</Code_postal>
+<Ville>Lyon</Ville>
+<Pays>France</Pays>
+  <Nationalité>Fran&#xE7;aise</Nationalité>
+<Sexe>F</Sexe>
+<E-mail>ccc@ccc.com</E-mail>
+  <Téléphone/>
+<Formation>
+<Diplome>BTS CCC</Diplome>
+<Etablissement>CKUC</Etablissement>
+<Promotion>2009</Promotion>
+</Formation>
+<Langues>
+	<Langue>anglais</Langue>
+	<Niveau>mauvais</Niveau>
+</Langues>
+<Langues>
+	<Langue>espagnol</Langue>
+	<Niveau>bon</Niveau>
+</Langues>
+<Competences>C / C++ / C# / Perl</Competences>
+<CV_URL/>
+  <Photo_URL/>
+</Etudiant>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Entreprise>
+	<lastIP>0.0.0.0</lastIP>
+	<Login>atos</Login>
+	<Mot_de_passe>atos</Mot_de_passe>
+	<Nom>Atos Origin</Nom>
+	<Code_postal/>
+	<Ville/>
+	<Pays>France</Pays>
+	<Contact>
+		<Nom/>
+		<Téléphone/>
+		<E-Mail/>
+	</Contact>
+	<Description>
+		<Catégorie/>
+		<Activités>exploiter des viets</Activités>
+	</Description>
+	<Logo_URL/>
+	<Entreprise_URL>http://www.fr.atosorigin.com/fr-fr/</Entreprise_URL>
+	<Autorisation>1</Autorisation>
+	<Adresse/>
+</Entreprise>

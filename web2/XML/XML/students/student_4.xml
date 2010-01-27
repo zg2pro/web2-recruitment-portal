@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Etudiant>
+<Disponibilité>1</Disponibilité>
+<Login>ddd</Login>
+<Mot_de_passe>ddd</Mot_de_passe>
+<lastIP>0.0.0.0</lastIP>
+<Nom>ddd</Nom>
+<Prenom>d</Prenom>
+<Date_de_naissance>09-11-1934</Date_de_naissance>
+  <Pays>France</Pays>
+  <Sexe>F</Sexe>
+  <Adresse>rue Colonel Dumont</Adresse>
+<Code_postal>38000</Code_postal>
+<Ville>Grenoble</Ville>
+<E-mail>ddd@ddd.fr</E-mail>
+  <Téléphone/>
+<Formation>
+<Diplome>Master 2 DDD</Diplome>
+<Etablissement>DTLHFH</Etablissement>
+<Promotion>2009</Promotion>
+</Formation>
+<Langues>
+	<Langue>arabe</Langue>
+	<Niveau>bon</Niveau>
+</Langues>
+<Competences>Perl / bash / programmation objet</Competences>
+<CV_URL/>
+  <Photo_URL/>
+</Etudiant>
